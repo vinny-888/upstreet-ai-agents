@@ -54,7 +54,7 @@ app.get("/", function (req, res) {
 app.get("/chat", async (req, res) => {
   // Respond with error if no API Key set
   if(!process.env.OPENAI_API_KEY){
-    res.status(500).send({ err: 'No OpenAI API Key set in the .env file' });
+    res.status(500).send({ err: 'No OpenAI API Key set as an Enviroment Variable eg. "export OPENAI_API_KEY=xxx" ' });
     return;
   }
   let model = req.query.model;
@@ -75,7 +75,7 @@ app.get("/chat", async (req, res) => {
 app.post("/chat", express.json(), async (req, res) => {
   // Respond with error if no API Key set
   if(!process.env.OPENAI_API_KEY){
-    res.status(500).send({ err: 'No OpenAI API Key set in the .env file' });
+    res.status(500).send({ err: 'No OpenAI API Key set as an Enviroment Variable eg. "export OPENAI_API_KEY=xxx" ' });
     return;
   }
   let model = req.query.model;
