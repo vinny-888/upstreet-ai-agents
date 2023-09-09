@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div id="main">
+            <div class="hero">
+                <img class="logo" src="logo.jpeg">
+            </div>
+            <div id="content">
+                <br>
+                <div class="centered">
+                  <select id="model" onchange="modelChanged()">
+                    <option value="Mixture of Experts">Mixture of Experts</option>
+                    <option value="Proposal Reviewer">Proposal Reviewer</option>
+                    <option value="Artists">Artists</option>
+                    <option value="Businesses and Entrepreneurs">Businesses and Entrepreneurs</option>
+                    <option value="Educators and Trainers">Educators and Trainers</option>
+                    <option value="UX">UX</option>
+                    <option value="Moderators">Moderators</option>
+                    <option value="Devs">Devs</option>
+                    <option value="Users">Users</option>
+                    <option value="Volunteers">Volunteers</option>
+                  </select>
+                  <h3>For entertainment purposes only</h3>
+                </div>
+
+                <div id="text_input_div" style="display: block;">
+                    <H2>Question:</H2>
+                    <textarea class="text_input" id="text_input" name="text_input" rows="4" cols="100"></textarea>
+                    <br>
+                    <input class="button-white" type="button" value="Submit" onclick="setText()"">
+                    <br>
+
+                    <div id="master" class="grid-container">
+                        <div class="grid-item">Artist<br><textarea class="text_input" id="text_output_1" rows="4" cols="50"></textarea></div>
+                        <div class="grid-item">Businesses and Entrepreneurs<br><textarea class="text_input" id="text_output_2" rows="4" cols="50"></textarea></div>
+                        <div class="grid-item">Educators and Trainers<br><textarea class="text_input" id="text_output_3" rows="4" cols="50"></textarea></div>
+                        <div class="grid-item">UX<br><textarea class="text_input" id="text_output_4" rows="4" cols="50"></textarea></div>
+                        <div class="grid-item">Mixture of Experts<br><textarea class="text_input main_ai" id="text_output_5" rows="4" cols="50"></textarea></div>
+                        <div class="grid-item">Moderators<br><textarea class="text_input" id="text_output_6" rows="4" cols="50"></textarea></div>
+                        <div class="grid-item">Devs<br><textarea class="text_input" id="text_output_7" rows="4" cols="50"></textarea></div>
+                        <div class="grid-item">Users<br><textarea class="text_input" id="text_output_8" rows="4" cols="50"></textarea></div>
+                        <div class="grid-item">Volunteers<br><textarea class="text_input" id="text_output_9" rows="4" cols="50"></textarea></div>
+                    </div>
+                    <div id="single" class="grid-container" style="display: none;">
+                        <div class="grid-item"><span id="model_name"></span><br><textarea class="text_input" id="text_output_single" name="text_output_single" rows="16" cols="100"></textarea></div>
+                    </div>
+                </div>
+            </div>
+            <div class="gradientback"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
