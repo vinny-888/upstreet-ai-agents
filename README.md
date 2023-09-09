@@ -11,7 +11,13 @@ npm i
 export OPENAI_API_KEY=xxx
 ```
 
-## Running
+## Running Dev Server
+
+```
+npm run dev
+```
+
+## Running Prod Server
 
 ```
 npm run start
