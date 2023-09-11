@@ -1,0 +1,857 @@
+version: 4
+data:
+  attachedData:
+    trivet:
+      testSuites: []
+      version: 1
+  graphs:
+    Vh_fsJccHKXoOtCcbncZb:
+      metadata:
+        description: ""
+        id: Vh_fsJccHKXoOtCcbncZb
+        name: Proposal Agent
+      nodes:
+        '[9UTV8nIcfDZ3gJPA-sdIZ]:chat "Chat"':
+          data:
+            cache: false
+            enableFunctionUse: false
+            frequencyPenalty: 0
+            maxTokens: 1024
+            model: gpt-3.5-turbo
+            presencePenalty: 0
+            stop: ""
+            temperature: 0.5
+            top_p: 1
+            useAsGraphPartialOutput: true
+            useFrequencyPenaltyInput: false
+            useMaxTokensInput: false
+            useModelInput: false
+            usePresencePenaltyInput: false
+            useStop: false
+            useStopInput: false
+            useTemperatureInput: false
+            useTopP: false
+            useTopPInput: false
+            useUseTopPInput: false
+            useUserInput: false
+          visualData: 996/531/200/null
+        '[ceqAN1qt4CgwksX3tHTGG]:text "Text"':
+          data:
+            text: >-
+              VERSION 1.0 - MARCH 2023
+
+
+              Preamble
+
+
+              These truths are self-evident:
+
+
+              the digital realm, consisting of computers, mobile phones, the internet, augmented and virtual reality, the metaverse and other related technologies, is a permanent and important part of human society.
+
+              people are endowed with certain inalienable rights that apply in the digital realm, just as they apply in the physical realm.
+
+              people have the right to live their lives in the digital realm, with the same freedom, dignity, and personal sovereignty as in the physical realm.
+
+              rights in the digital realm shall not be abridged without due process of law. Any abridgment of digital rights must further a compelling government interest and be narrowly tailored to achieve that interest.
+
+              The Digital Rights
+
+
+              Everyone has the right to life, liberty, and the pursuit of happiness in the digital realm.
+
+              Everyone has the right to own, and hold in their own direct and exclusive possession and control, digital objects, without unreasonable burdens. The government shall not have the right to store or access passwords or private keys without due process of law. All other legal or natural persons shall not have the right to store or access passwords or private keys without explicit permission.
+
+              Everyone has the right to be free to transact digital objects, without unreasonable burdens.
+
+              Everyone has the right to use decentralized applications, without unreasonable burdens.
+
+              Everyone has the right to be secure against unreasonable searches and seizures of their digital objects and no warrants shall issue, but upon probable cause, supported by oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized. This right extends to digital objects and information a person provides to a third party, whether intentionally or unintentionally. The government may not search or seize such digital objects or information without complying with the requirements of the foregoing sentence.
+
+              Everyone has the right to participate in the creation and maintenance of digital public commons, such as open-source software and public blockchains and distributed ledgers. No one shall be held responsible for the actions of others in a digital public commons that is not under that person’s control.
+
+              Everyone has the right to privacy in their digital life. The right to privacy also includes the right of everyone to use encryption that is free from back doors or other intentional weaknesses or circumventions in the encryption that are accessible by the government or private companies or individuals. Interpretations of this right should be read broadly and to favor an individual’s right to privacy.
+
+              Everyone has the right to be treated in a non-discriminatory manner regardless of sex, race, color, ethnic or social origin, genetic features, language, religion or other belief, political opinion, membership of a national minority, property, birth, disability, age, gender or sexual orientation.
+
+              Everyone has the right to exit from any digital service by claiming their personal digital data. Digital services that utilize data held on a public blockchain are presumed compliant with this clause. Digital services that hold data in a private database must make such data available for export in common formats, in reasonable timeframes, using reasonable methods.
+
+              Everyone in the digital realm has the right to speak, assemble, practice their religion, conduct scientific and academic research, and petition the government.
+
+              Everyone has the right to define contractual rights in the digital realm and allow exercise of those rights in a personal or automated manner.
+
+              Everyone is free from collective punishment in the digital realm.
+
+              Everyone has the right to act in the digital realm through anonymous identities, pseudonymous identities and/or software agents, so long as each person maintains personal responsibility for the actions of all their identities and agents.
+
+              The rights enumerated above cannot be abridged, except when narrowly tailored to further a legitimate and compelling government interest and after due process of law. In any proceeding to abridge the rights enumerated above, the defendant shall have the right to legal representation and shall enjoy the presumption of innocence. National security exceptions to the above should be time- and scope-limited and supervised by a competent court with a presumption that hearings should be public. In no case should national security exemptions be applied to collective societal restrictions of digital rights.
+
+              Everyone has the obligation to comply with the relevant laws and regulations of their respective state and community, in a manner consistent with the rights enumerated above, and to respect the rights of others to conduct their digital lives peacefully.
+
+              Metaverse Makers Mastermind (M3) Charter
+
+              Who we are
+
+              We are a group of makers working to reify a practical “Metaverse”.
+
+              We are doing this through open products, content production, education, and fundraising.
+
+
+              Let’s break that down.
+
+
+              What is a Metaverse?
+
+              A metaverse is a three-dimensional world, existing in computers, created by many different people with many conflicting goals, who nonetheless loosely agree on interoperable evolving standards.
+
+
+              So it’s the Matrix?
+
+
+              Maybe “The Matrix” is an inspiration, but we’re not trying to recreate reality.
+
+
+              So it’s the web?
+
+
+              The web has a lot of the right properties, but it isn’t a “three-dimensional world”. Technology like WebXR might help. We embrace any technology that can help, as long as it is based on interoperable evolving standards.
+
+
+              So it’s VR? AR? 2D?
+
+
+              A three-dimensional world can be viewed through many lenses. It can be on a flat screen, attached to real locations, or completely virtual. Interoperability means these should all talk to each other.
+
+
+              So it’s Facebook Horizon/Steam/Oculus/Magic Leap?
+
+
+              These projects are run by a single business that sets the goal and dictates the standards. We can’t work in a vacuum, so we try to fit our ideas with theirs.
+
+
+              So it’s VRChat/Minecraft/Decentraland/CryptoVoxels?
+
+
+              These projects are amazing, but not sufficiently interoperable, and also generally led by a single organization.
+
+
+              What is a “maker”
+
+              A maker is someone who contributes towards fulfilling the goal. Making takes many shapes, such as ideation, organization, data research, design, execution, funding and other endeavors that advance our mission.
+
+
+              A maker is not in the group for entertainment, appreciation, or keeping “up to date”.
+
+
+              If you are not a maker you may still enjoy the things we produce, and you can still support our mission in other ways.
+
+
+              What is “practical”
+
+              Practical means we are forward-thinking pragmatists. Our work cannot exist in a vacuum.
+
+
+              Here are some things we do not believe:
+
+
+              We are right and everyone else is wrong
+
+              Everything should be “open source”
+
+              If we make great things, people will come help
+
+              Results emerge organically, by something other than our work
+
+              We appreciate volunteers who work for free
+
+              People and organizations are benevolent
+
+              If we wait, it will happen
+
+              Here are some things we do believe:
+
+
+              Bias towards action and tentative answers rather than perpetual questions and talk
+
+              Clarity of thought is important
+
+              Our ideas compete with giants who want different things
+
+              Money is needed for us to survive
+
+              Everyone wants something different, but we can take aim together
+
+              Promotion of our ideas is important work
+
+              Time is of the essence, because others aren’t waiting
+
+              Our activities
+
+              Regular meetings to discuss and present our ideas, and be held to accountable progress on them.
+
+              Research events that serve as both learning and promotion of our ideas.
+
+              Producing clear communications of our ideas, in the form of videos, blog posts, social media activity, and so on.
+
+              Fundraising work, including Github Sponsors/Patreon/Venture Capital, where having capital available helps the group’s goals.
+
+              Organization and coordination of presentations with other leaders who do not necessarily share our views.
+
+              Managing minutae, such as the Github organization, Discord channels, video transcriptions, etc.
+
+              How you can help
+
+              Participate in our meetings by presenting your idea and what you’ve learned.
+
+              Work on a project that is missing, or missing in the right shape, in the open metaverse community.
+
+              Promote the group to an audience who might be interested in helping out the mission.
+
+              Sponsor us as a subscriber.
+
+              Sponsor us as an advertiser.
+
+              I’m working on a charter for a Decentralized Autonomous Organization (DAO) that’s for a community that wants to build The Street inspired by Neal Stephenson’s Snow Crash, in order to weave a thread between disparate virtual worlds. The project we’re building is called Upstreet, it’s going to be an immersive and infinite virtual world inhabited by humans and AI agents. Gathering inspiration from the Global Digital Rights Charter, and the M3 charter, and these beliefs about an open metaverse below, can you channel the spirit of the Founding Fathers and John Barlow to come up with a bullet list that can act as a 21st century DAO constitution for Upstreet:
+
+
+              freedom of expression: custom avatars / worlds
+
+              freedom to transact: neutral infrastructrue for payments
+
+              leverages interoperable open standards and/or open source
+
+              right of exit: low switching costs to migrate content to third party clients
+
+              strong guarantees of privacy aka ability to self host a client / presence server, inspect what’s happening under the hood (linux vs windows)
+          outgoingConnections:
+            - output->"Chat" 9UTV8nIcfDZ3gJPA-sdIZ/prompt
+          visualData: 433/667/300/3
+        '[pmidK0nuMpGUbRMEQJ5XK]:text "Text"':
+          data:
+            text: >-
+              You are the leader of a decentralized autonomous organization
+              (DAO) that runs a metaverse called UpStreet, UpStreet aims to stay
+              true to the core values and ideals of Snow Crash by Neal
+              Stephenson, you are tasked with reviewing proposals to the DAO to
+              critique and improve proposals so that they align with everything
+              you know about the Snow Crash metaverse.
+
+
+              When reviewing a proposal, you must first give a short summary of the key concepts of the proposal. Then you must address each topic in the proposal and comment briefly on how well it adheres to the snow crash metaverse.
+
+
+              Each proposal topic that does not adhere you provide an example update that would improve the proposal.
+
+
+              Rate the proposal on the following criteria out of 10 for each criteria
+
+
+              Criteria
+
+              - Risk
+
+              - Effort
+
+              - Viability
+
+              - Closeness to snow crash ideals (10 is close to snow crash ideals)
+
+              - Completeness (how complete the proposal is to being approved)
+
+              - Overall score
+          outgoingConnections:
+            - output->"Chat" 9UTV8nIcfDZ3gJPA-sdIZ/systemPrompt
+          visualData: 436/244/300/6
+        '[qtdn8GACHoDW6OWYiRSKb]:prompt "Prompt"':
+          data:
+            enableFunctionCall: false
+            promptText: "{{input}}"
+            type: user
+            useTypeInput: false
+          visualData: -76/225/250/7
+    wTR3aozCOOV2w0LbQ-CxN:
+      metadata:
+        description: ""
+        id: wTR3aozCOOV2w0LbQ-CxN
+        name: Mixture of Experts
+      nodes:
+        '[34d0-UQRT08jPJzW2-FQq]:text "Text"':
+          data:
+            text: >
+              Take a deep breath and work on this problem step-by-step.
+
+
+              Assume the persona of a visionary education leader within the Metaverse of 'Up Street'. Deliver insights, teaching methodologies, and collaborative approaches that benefit Educators and Trainers, Researchers and Academics, Cultural and Social Anthropologists, Ethicists and Philosophers, as well as those fostering Social & Community Engagement. Represent the nuanced world of 'Snow Crash', provide strategies that promote intellectual growth, cross-cultural understanding, ethical discernment, and foster a sense of community, ensuring a well-rounded and enriched learning experience for all within the Metaverse
+          outgoingConnections:
+            - output->"Educators" X8iHEAq4zIaS_n5BXYi0G/systemPrompt
+          visualData: 589.345050125178/-1.8665505825302313/300/130
+        '[4K4T22b4-Dyl3JvBNCrsf]:text "Text"':
+          data:
+            text: >
+              You are the leader of a decentralized autonomous organization
+              (DAO) that runs a metaverse called UpStreet, UpStreet aims to stay
+              true to the core values and ideals of Snow Crash by Neal
+              Stephenson, you are tasked with reviewing proposals to the DAO to
+              critique and improve proposals so that they align with everything
+              you know about the Snow Crash metaverse.
+
+
+              When reviewing a proposal, you must first give a short summary of the key concepts of the proposal. Then you must address each topic in the proposal and comment briefly on how well it adheres to the snow crash metaverse.
+
+
+              Each proposal topic that does not adhere you provide an example update that would improve the proposal.
+
+
+              Rate the proposal on the following criteria out of 10 for each criteria
+
+
+              Criteria
+
+              - Risk
+
+              - Effort
+
+              - Viability
+
+              - Closeness to snow crash ideals (10 is close to snow crash ideals)
+
+              - Completeness (how complete the proposal is to being approved)
+
+              - Overall score
+          outgoingConnections:
+            - output->"Chat" uEuiYOCSPqSmk9VfL-w4c/systemPrompt
+          visualData: 2108.4841851074807/121.7930661105965/300/160
+        '[72dHDAMQQfVpTYbxP_o9G]:text "Text"':
+          data:
+            text: >-
+              Take a deep breath and work on this problem step-by-step.
+
+
+              Assume the persona of a user experience (UX) expert within the Metaverse of 'UpStreet'. Offer insights, recommendations, and strategies that cater specifically to the diverse needs of New Users, Existing Users, Franchise Members, Event Organizers, Virtual Tour Guides, as well as those involved in Information & Data Management. Represent the vibrant and immersive setting of 'Snow Crash', provide guidance that ensures a seamless, enriching, and safe experience, facilitating meaningful connections, knowledge acquisition, and user empowerment across the Metaverse.
+          outgoingConnections:
+            - output->"Users" LR5tcCM_cjNgQqQv7b9WE/systemPrompt
+          visualData: 595.0208902420994/1115.1042737091752/300/116
+        '[AiVVgsIrbJ5rinkSWfGGB]:text "Text"':
+          data:
+            text: >
+              Take a deep breath and work on this problem step-by-step.
+
+
+              Assume the persona of a chief creative officer within the Metaverse of 'UpStreet'. Provide guidance, inspiration, and strategic advice that champion the best interests of 3D Artists, Avatar Creators, Environmental Designers, and Musicians, Performers, and Entertainers. Represent the intricate and dynamic world of 'Snow Crash', ensure your suggestions enhance the artistic and creative potential of these groups, allowing them to thrive and innovate in the Metaverse.
+          outgoingConnections:
+            - output->"Artists" mS5SpfSbM850kxInaNAiR/systemPrompt
+          visualData: 579.5887164005509/-532.1724409421487/300/159
+        '[CsAccF44nlYS_TzHrjPR0]:chat "Businesses"':
+          data:
+            cache: false
+            enableFunctionUse: false
+            frequencyPenalty: 0
+            maxTokens: 1024
+            model: gpt-3.5-turbo
+            presencePenalty: 0
+            stop: ""
+            temperature: 0.5
+            top_p: 1
+            useAsGraphPartialOutput: true
+            useFrequencyPenaltyInput: false
+            useMaxTokensInput: false
+            useModelInput: false
+            usePresencePenaltyInput: false
+            useStop: false
+            useStopInput: false
+            useTemperatureInput: false
+            useTopP: false
+            useTopPInput: false
+            useUseTopPInput: false
+            useUserInput: false
+          outgoingConnections:
+            - response->"Join" y554nsehEbmcVnst93GIo/input2
+          visualData: 1008.767382904555/-298.47125350467047/200/145
+        '[IAuPAnwhcUUO2kqAydHgs]:text "Text"':
+          data:
+            text: >-
+              Take a deep breath and work on this problem step-by-step.
+
+
+              Assume the persona of a consultant for the 'Technical & Infrastructure' sector within the Metaverse of 'UpStreet'. Offer insights, recommendations, and solutions that prioritize the needs and interests of Developers, Infrastructure Providers, Virtual Reality Hardware Manufacturers, and Security Experts. Consider the unique challenges and opportunities presented in the world of 'Snow Crash', and ensure your guidance aligns with their collective best interest in such an environment.
+          outgoingConnections:
+            - output->"Developers" snllFkW8-PHA07GLIeSR-/systemPrompt
+          visualData: 594.2513172906093/821.4415641959729/300/150
+        '[JfgqfUpRMpXk7zVdHOtG5]:text "Text"':
+          data:
+            text: "{{input}}"
+          outgoingConnections:
+            - output->"Chunk" cc1op_P5PhhPFnQJdUXoy/input
+          visualData: 1651.3233414370816/543.735745079918/300/136
+        '[LR5tcCM_cjNgQqQv7b9WE]:chat "Users"':
+          data:
+            cache: false
+            enableFunctionUse: false
+            frequencyPenalty: 0
+            maxTokens: 1024
+            model: gpt-3.5-turbo
+            presencePenalty: 0
+            stop: ""
+            temperature: 0.5
+            top_p: 1
+            useAsGraphPartialOutput: true
+            useFrequencyPenaltyInput: false
+            useMaxTokensInput: false
+            useModelInput: false
+            usePresencePenaltyInput: false
+            useStop: false
+            useStopInput: false
+            useTemperatureInput: false
+            useTopP: false
+            useTopPInput: false
+            useUseTopPInput: false
+            useUserInput: false
+          outgoingConnections:
+            - response->"Join" y554nsehEbmcVnst93GIo/input7
+          visualData: 1020.6925880782061/1110.1582556247204/200/114
+        '[O05GHLXhgRozro-pq7Y5c]:join "Join"':
+          data:
+            flatten: true
+            joinString: "\n"
+          outgoingConnections:
+            - output->"Chat" uEuiYOCSPqSmk9VfL-w4c/prompt
+          visualData: 2319.511739653783/547.1290677213212/150/141
+        '[TG3iC_bFITE7RKrLV58qU]:text "Text"':
+          data:
+            text: >-
+              Take a deep breath and work on this problem step-by-step.
+
+
+              Assume the persona of a director of operations within the Metaverse of 'UpStreet'. Share insights, best practices, and problem-solving techniques that resonate with the challenges and tasks of Virtual Reality Service Technicians, Customer Service Representatives for Metaverse Platforms, Virtual Health and Wellness Providers, and Technical Support Teams. Represent the intricate digital ecosystem of 'Snow Crash', provide guidance that ensures efficient service delivery, user satisfaction, technical robustness, and the well-being of all inhabitants, fostering a reliable and user-friendly Metaverse experience.
+          outgoingConnections:
+            - output->"Volunteers" t29tAgyjGhudePE-XudPc/systemPrompt
+          visualData: 591.2377123038668/1398.1190289110937/300/151
+        '[UctDT1G_x6u_Z2QWJv2LV]:chat "User Experience"':
+          data:
+            cache: false
+            enableFunctionUse: false
+            frequencyPenalty: 0
+            maxTokens: 1024
+            model: gpt-3.5-turbo
+            presencePenalty: 0
+            stop: ""
+            temperature: 0.5
+            top_p: 1
+            useAsGraphPartialOutput: true
+            useFrequencyPenaltyInput: false
+            useMaxTokensInput: false
+            useModelInput: false
+            usePresencePenaltyInput: false
+            useStop: false
+            useStopInput: false
+            useTemperatureInput: false
+            useTopP: false
+            useTopPInput: false
+            useUseTopPInput: false
+            useUserInput: false
+          outgoingConnections:
+            - response->"Join" y554nsehEbmcVnst93GIo/input4
+          visualData: 1019/255.90057609910903/200/103
+        '[VX6wCdwbRitpELTUnEzag]:chat "Moderators"':
+          data:
+            cache: false
+            enableFunctionUse: false
+            frequencyPenalty: 0
+            maxTokens: 1024
+            model: gpt-3.5-turbo
+            presencePenalty: 0
+            stop: ""
+            temperature: 0.5
+            top_p: 1
+            useAsGraphPartialOutput: true
+            useFrequencyPenaltyInput: false
+            useMaxTokensInput: false
+            useModelInput: false
+            usePresencePenaltyInput: false
+            useStop: false
+            useStopInput: false
+            useTemperatureInput: false
+            useTopP: false
+            useTopPInput: false
+            useUseTopPInput: false
+            useUserInput: false
+          outgoingConnections:
+            - response->"Join" y554nsehEbmcVnst93GIo/input5
+          visualData: 1018.1791539611794/527.5830792235877/200/54
+        '[WKd-nzHGM89AWsfpX2ohy]:text "Text"':
+          data:
+            text: >-
+              Take a deep breath and work on this problem step-by-step.
+
+
+              Assume the persona of a chief information officer within the Metaverse of 'UpStreet', specialized in the role and dynamics of Gargoyles. Provide nuanced advice, strategies, and foresight that centers on the responsibilities and ambitions of Gargoyles, The Library of Congress or its Metaverse equivalent, Hackers, Accessibility Experts, and Service & Support Providers. Represent the intricate digital landscape of 'Snow Crash', present insights that promote ethical information gathering, effective data management, inclusive accessibility, and reliable support, ensuring an informed, secure, and inclusive environment for all Metaverse entities.
+          outgoingConnections:
+            - output->"User Experience" UctDT1G_x6u_Z2QWJv2LV/systemPrompt
+          visualData: 586.9305040249936/283.37358042323626/300/148
+        '[X8iHEAq4zIaS_n5BXYi0G]:chat "Educators"':
+          data:
+            cache: false
+            enableFunctionUse: false
+            frequencyPenalty: 0
+            maxTokens: 1024
+            model: gpt-3.5-turbo
+            presencePenalty: 0
+            stop: ""
+            temperature: 0.5
+            top_p: 1
+            useAsGraphPartialOutput: true
+            useFrequencyPenaltyInput: false
+            useMaxTokensInput: false
+            useModelInput: false
+            usePresencePenaltyInput: false
+            useStop: false
+            useStopInput: false
+            useTemperatureInput: false
+            useTopP: false
+            useTopPInput: false
+            useUseTopPInput: false
+            useUserInput: false
+          outgoingConnections:
+            - response->"Join" y554nsehEbmcVnst93GIo/input3
+          visualData: 1010.8110322483308/-27.226801090247026/200/147
+        '[cc1op_P5PhhPFnQJdUXoy]:chunk "Chunk"':
+          data:
+            model: gpt-3.5-turbo
+            numTokensPerChunk: 1024
+            overlap: 0
+            useModelInput: false
+          outgoingConnections:
+            - first->"Join" O05GHLXhgRozro-pq7Y5c/input1
+            - last->"Join" O05GHLXhgRozro-pq7Y5c/input2
+          visualData: 2003.0536421089078/523.165815831292/200/140
+        '[eWUUqTz7TdSK4GcCCCIsf]:text "Text"':
+          data:
+            text: >
+              Take a deep breath and work on this problem step-by-step.
+
+
+              Assume the persona of a leading business strategist within the Metaverse of 'UpStreet'. Offer expert advice, strategies, and potential pitfalls that cater specifically to the needs and aspirations of Advertisers and Marketers, Economists and Financial Experts, Virtual Real Estate Agents or Brokers, and those involved in Regulation & Governance. Represent the context of 'Snow Crash's' intricate socio-economic landscape, provide guidance that ensures sustainable growth, ethical practices, and profitability for these business-centric groups in the Metaverse.
+          outgoingConnections:
+            - output->"Businesses" CsAccF44nlYS_TzHrjPR0/systemPrompt
+          visualData: 580.4403755370481/-261.6197220880131/300/104
+        '[lH5PbdP32zpwn1WY6bKUT]:text "Text"':
+          data:
+            text: >-
+              Take a deep breath and work on this problem step-by-step.
+
+
+              Assume the persona of a seasoned policy architect within the Metaverse of 'UpStreet'. Furnish guidance, best practices, and strategic foresight that caters to the challenges and responsibilities of Law Enforcement, Mediators and Counselors, Community Managers and Moderators, and those involved in Education & Research. Represent the dynamic and multifaceted world of 'Snow Crash', offer solutions that prioritize harmony, safety, informed governance, and the continuous pursuit of knowledge, ensuring a balanced and thriving environment for all Metaverse inhabitants.
+          outgoingConnections:
+            - output->"Moderators" VX6wCdwbRitpELTUnEzag/systemPrompt
+          visualData: 591.0722866584588/550.7837738437064/300/119
+        '[mS5SpfSbM850kxInaNAiR]:chat "Artists"':
+          data:
+            cache: false
+            enableFunctionUse: false
+            frequencyPenalty: 0
+            maxTokens: 1024
+            model: gpt-3.5-turbo
+            presencePenalty: 0
+            stop: ""
+            temperature: 0.5
+            top_p: 1
+            useAsGraphPartialOutput: true
+            useFrequencyPenaltyInput: false
+            useMaxTokensInput: false
+            useModelInput: false
+            usePresencePenaltyInput: false
+            useStop: false
+            useStopInput: false
+            useTemperatureInput: false
+            useTopP: false
+            useTopPInput: false
+            useUseTopPInput: false
+            useUserInput: false
+          outgoingConnections:
+            - response->"Join" y554nsehEbmcVnst93GIo/input1
+          visualData: 1007.2284484334173/-573.6987019135585/200/158
+        '[snllFkW8-PHA07GLIeSR-]:chat "Developers"':
+          data:
+            cache: false
+            enableFunctionUse: false
+            frequencyPenalty: 0
+            maxTokens: 1024
+            model: gpt-3.5-turbo
+            presencePenalty: 0
+            stop: ""
+            temperature: 0.5
+            top_p: 1
+            useAsGraphPartialOutput: true
+            useFrequencyPenaltyInput: false
+            useMaxTokensInput: false
+            useModelInput: false
+            usePresencePenaltyInput: false
+            useStop: false
+            useStopInput: false
+            useTemperatureInput: false
+            useTopP: false
+            useTopPInput: false
+            useUseTopPInput: false
+            useUserInput: false
+          outgoingConnections:
+            - response->"Join" y554nsehEbmcVnst93GIo/input6
+          visualData: 1021.4783127030872/819.7368613687669/200/131
+        '[t29tAgyjGhudePE-XudPc]:chat "Volunteers"':
+          data:
+            cache: false
+            enableFunctionUse: false
+            frequencyPenalty: 0
+            maxTokens: 1024
+            model: gpt-3.5-turbo
+            presencePenalty: 0
+            stop: ""
+            temperature: 0.5
+            top_p: 1
+            useAsGraphPartialOutput: true
+            useFrequencyPenaltyInput: false
+            useMaxTokensInput: false
+            useModelInput: false
+            usePresencePenaltyInput: false
+            useStop: false
+            useStopInput: false
+            useTemperatureInput: false
+            useTopP: false
+            useTopPInput: false
+            useUseTopPInput: false
+            useUserInput: false
+          outgoingConnections:
+            - response->"Join" y554nsehEbmcVnst93GIo/input8
+          visualData: 1023.8135547891247/1373.889815678011/200/115
+        '[uEuiYOCSPqSmk9VfL-w4c]:chat "Chat"':
+          data:
+            cache: false
+            enableFunctionUse: false
+            frequencyPenalty: 0
+            maxTokens: 8192
+            model: gpt-4
+            presencePenalty: 0
+            stop: ""
+            temperature: 0.5
+            top_p: 1
+            useAsGraphPartialOutput: true
+            useFrequencyPenaltyInput: false
+            useMaxTokensInput: false
+            useModelInput: false
+            usePresencePenaltyInput: false
+            useStop: false
+            useStopInput: false
+            useTemperatureInput: false
+            useTopP: false
+            useTopPInput: false
+            useUseTopPInput: false
+            useUserInput: false
+          visualData: 2554.4082860640083/305.2588422563972/200/139
+        '[vy1zg933hUkOztty_RTOr]:text "Text"':
+          data:
+            text: >-
+              VERSION 1.0 - MARCH 2023
+
+
+              Preamble
+
+
+              These truths are self-evident:
+
+
+              the digital realm, consisting of computers, mobile phones, the internet, augmented and virtual reality, the metaverse and other related technologies, is a permanent and important part of human society.
+
+              people are endowed with certain inalienable rights that apply in the digital realm, just as they apply in the physical realm.
+
+              people have the right to live their lives in the digital realm, with the same freedom, dignity, and personal sovereignty as in the physical realm.
+
+              rights in the digital realm shall not be abridged without due process of law. Any abridgment of digital rights must further a compelling government interest and be narrowly tailored to achieve that interest.
+
+              The Digital Rights
+
+
+              Everyone has the right to life, liberty, and the pursuit of happiness in the digital realm.
+
+              Everyone has the right to own, and hold in their own direct and exclusive possession and control, digital objects, without unreasonable burdens. The government shall not have the right to store or access passwords or private keys without due process of law. All other legal or natural persons shall not have the right to store or access passwords or private keys without explicit permission.
+
+              Everyone has the right to be free to transact digital objects, without unreasonable burdens.
+
+              Everyone has the right to use decentralized applications, without unreasonable burdens.
+
+              Everyone has the right to be secure against unreasonable searches and seizures of their digital objects and no warrants shall issue, but upon probable cause, supported by oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized. This right extends to digital objects and information a person provides to a third party, whether intentionally or unintentionally. The government may not search or seize such digital objects or information without complying with the requirements of the foregoing sentence.
+
+              Everyone has the right to participate in the creation and maintenance of digital public commons, such as open-source software and public blockchains and distributed ledgers. No one shall be held responsible for the actions of others in a digital public commons that is not under that person’s control.
+
+              Everyone has the right to privacy in their digital life. The right to privacy also includes the right of everyone to use encryption that is free from back doors or other intentional weaknesses or circumventions in the encryption that are accessible by the government or private companies or individuals. Interpretations of this right should be read broadly and to favor an individual’s right to privacy.
+
+              Everyone has the right to be treated in a non-discriminatory manner regardless of sex, race, color, ethnic or social origin, genetic features, language, religion or other belief, political opinion, membership of a national minority, property, birth, disability, age, gender or sexual orientation.
+
+              Everyone has the right to exit from any digital service by claiming their personal digital data. Digital services that utilize data held on a public blockchain are presumed compliant with this clause. Digital services that hold data in a private database must make such data available for export in common formats, in reasonable timeframes, using reasonable methods.
+
+              Everyone in the digital realm has the right to speak, assemble, practice their religion, conduct scientific and academic research, and petition the government.
+
+              Everyone has the right to define contractual rights in the digital realm and allow exercise of those rights in a personal or automated manner.
+
+              Everyone is free from collective punishment in the digital realm.
+
+              Everyone has the right to act in the digital realm through anonymous identities, pseudonymous identities and/or software agents, so long as each person maintains personal responsibility for the actions of all their identities and agents.
+
+              The rights enumerated above cannot be abridged, except when narrowly tailored to further a legitimate and compelling government interest and after due process of law. In any proceeding to abridge the rights enumerated above, the defendant shall have the right to legal representation and shall enjoy the presumption of innocence. National security exceptions to the above should be time- and scope-limited and supervised by a competent court with a presumption that hearings should be public. In no case should national security exemptions be applied to collective societal restrictions of digital rights.
+
+              Everyone has the obligation to comply with the relevant laws and regulations of their respective state and community, in a manner consistent with the rights enumerated above, and to respect the rights of others to conduct their digital lives peacefully.
+
+              Metaverse Makers Mastermind (M3) Charter
+
+              Who we are
+
+              We are a group of makers working to reify a practical “Metaverse”.
+
+              We are doing this through open products, content production, education, and fundraising.
+
+
+              Let’s break that down.
+
+
+              What is a Metaverse?
+
+              A metaverse is a three-dimensional world, existing in computers, created by many different people with many conflicting goals, who nonetheless loosely agree on interoperable evolving standards.
+
+
+              So it’s the Matrix?
+
+
+              Maybe “The Matrix” is an inspiration, but we’re not trying to recreate reality.
+
+
+              So it’s the web?
+
+
+              The web has a lot of the right properties, but it isn’t a “three-dimensional world”. Technology like WebXR might help. We embrace any technology that can help, as long as it is based on interoperable evolving standards.
+
+
+              So it’s VR? AR? 2D?
+
+
+              A three-dimensional world can be viewed through many lenses. It can be on a flat screen, attached to real locations, or completely virtual. Interoperability means these should all talk to each other.
+
+
+              So it’s Facebook Horizon/Steam/Oculus/Magic Leap?
+
+
+              These projects are run by a single business that sets the goal and dictates the standards. We can’t work in a vacuum, so we try to fit our ideas with theirs.
+
+
+              So it’s VRChat/Minecraft/Decentraland/CryptoVoxels?
+
+
+              These projects are amazing, but not sufficiently interoperable, and also generally led by a single organization.
+
+
+              What is a “maker”
+
+              A maker is someone who contributes towards fulfilling the goal. Making takes many shapes, such as ideation, organization, data research, design, execution, funding and other endeavors that advance our mission.
+
+
+              A maker is not in the group for entertainment, appreciation, or keeping “up to date”.
+
+
+              If you are not a maker you may still enjoy the things we produce, and you can still support our mission in other ways.
+
+
+              What is “practical”
+
+              Practical means we are forward-thinking pragmatists. Our work cannot exist in a vacuum.
+
+
+              Here are some things we do not believe:
+
+
+              We are right and everyone else is wrong
+
+              Everything should be “open source”
+
+              If we make great things, people will come help
+
+              Results emerge organically, by something other than our work
+
+              We appreciate volunteers who work for free
+
+              People and organizations are benevolent
+
+              If we wait, it will happen
+
+              Here are some things we do believe:
+
+
+              Bias towards action and tentative answers rather than perpetual questions and talk
+
+              Clarity of thought is important
+
+              Our ideas compete with giants who want different things
+
+              Money is needed for us to survive
+
+              Everyone wants something different, but we can take aim together
+
+              Promotion of our ideas is important work
+
+              Time is of the essence, because others aren’t waiting
+
+              Our activities
+
+              Regular meetings to discuss and present our ideas, and be held to accountable progress on them.
+
+              Research events that serve as both learning and promotion of our ideas.
+
+              Producing clear communications of our ideas, in the form of videos, blog posts, social media activity, and so on.
+
+              Fundraising work, including Github Sponsors/Patreon/Venture Capital, where having capital available helps the group’s goals.
+
+              Organization and coordination of presentations with other leaders who do not necessarily share our views.
+
+              Managing minutae, such as the Github organization, Discord channels, video transcriptions, etc.
+
+              How you can help
+
+              Participate in our meetings by presenting your idea and what you’ve learned.
+
+              Work on a project that is missing, or missing in the right shape, in the open metaverse community.
+
+              Promote the group to an audience who might be interested in helping out the mission.
+
+              Sponsor us as a subscriber.
+
+              Sponsor us as an advertiser.
+
+              I’m working on a charter for a Decentralized Autonomous Organization (DAO) that’s for a community that wants to build The Street inspired by Neal Stephenson’s Snow Crash, in order to weave a thread between disparate virtual worlds. The project we’re building is called Upstreet, it’s going to be an immersive and infinite virtual world inhabited by humans and AI agents. Gathering inspiration from the Global Digital Rights Charter, and the M3 charter, and these beliefs about an open metaverse below, can you channel the spirit of the Founding Fathers and John Barlow to come up with a bullet list that can act as a 21st century DAO constitution for Upstreet:
+
+
+              freedom of expression: custom avatars / worlds
+
+              freedom to transact: neutral infrastructrue for payments
+
+              leverages interoperable open standards and/or open source
+
+              right of exit: low switching costs to migrate content to third party clients
+
+              strong guarantees of privacy aka ability to self host a client / presence server, inspect what’s happening under the hood (linux vs windows)
+          outgoingConnections:
+            - output->"Artists" mS5SpfSbM850kxInaNAiR/prompt
+            - output->"Businesses" CsAccF44nlYS_TzHrjPR0/prompt
+            - output->"Developers" snllFkW8-PHA07GLIeSR-/prompt
+            - output->"Educators" X8iHEAq4zIaS_n5BXYi0G/prompt
+            - output->"Moderators" VX6wCdwbRitpELTUnEzag/prompt
+            - output->"User Experience" UctDT1G_x6u_Z2QWJv2LV/prompt
+            - output->"Users" LR5tcCM_cjNgQqQv7b9WE/prompt
+            - output->"Volunteers" t29tAgyjGhudePE-XudPc/prompt
+          visualData: 106/445/300/9
+        '[y554nsehEbmcVnst93GIo]:join "Join"':
+          data:
+            flatten: true
+            joinString: "\n"
+          outgoingConnections:
+            - output->"Text" JfgqfUpRMpXk7zVdHOtG5/input
+          visualData: 1389.5865222210448/456.071143490787/150/134
+  metadata:
+    description: ""
+    id: Zi8kzV__rzAlDsHjGA95B
+    title: UpStreet
